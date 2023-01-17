@@ -30,7 +30,8 @@ def semantic_s(query, corpus_embeddings, dataset,embedder):
         if i>0:
             st.write(dataset[hit['corpus_id']], "(Score: {:.4f})".format(hit['score']))
 
-st.text('Please select a random tweet and get it's recommended tweets')
+st.text('Please select a random tweet and get it
+s recommended tweets')
 
 
 
